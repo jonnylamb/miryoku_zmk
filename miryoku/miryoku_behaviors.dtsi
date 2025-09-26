@@ -7,7 +7,7 @@
       compatible = "zmk,behavior-hold-tap";
       #binding-cells = <2>;
       tapping-term-ms = <U_TAPPING_TERM>;
-      require-prior-idle-ms = <U_REQUIRE_PRIOR_IDLS>;
+      require-prior-idle-ms = <U_REQUIRE_PRIOR_IDLE>;
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
     };
