@@ -1,0 +1,13 @@
+name: 'Totem Build'
+on:
+  push:
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["seeeduino_xiao_ble"]'
+      shield: '["totem_left", "totem_right"]'
+      alphas: '["QWERTY"]'
+      nav: '["vi"]'
+
