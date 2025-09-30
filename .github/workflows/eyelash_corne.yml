@@ -6,8 +6,8 @@ jobs:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      board: '["eyelash_corne_left", "eyelash_corne_right"]'
-      shield: '["nice_view"]'
+      board: '["nice_nano]'
+      shield: '["eyelash_corne_left", "eyelash_corne_right"]'
       alphas: '["QWERTY"]'
       nav: '["vi"]'
 
